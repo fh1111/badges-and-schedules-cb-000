@@ -31,7 +31,8 @@ def printer(names)
   rooms = assign_rooms(names)
   counter = 0;
 
-  puts "#{badges}"
+  puts "#{badges[0]}"
+  puts "#{badges[1]}"
   puts "#{rooms[0]}"
 
 
