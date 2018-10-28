@@ -27,9 +27,13 @@ end
 
 def printer(names)
 
+  batch_badge_creator(names).each do |badge|
+    puts "#{badge}"
+  end
+
   puts "#{batch_badge_creator(names)}"
   puts "#{assign_rooms(names)}"
-  
+
 end
 
 badge_maker("Arel")
