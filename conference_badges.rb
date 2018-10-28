@@ -16,3 +16,4 @@ def batch_badge_creator(names)
 end
 
 badge_maker("Arel")
+badge_badge_creator("Arel","Fer","Maria")
