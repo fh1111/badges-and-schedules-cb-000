@@ -33,7 +33,7 @@ def printer(names)
 
   puts "#{badges[0]}"
   puts "#{rooms[0]}"
-  
+
 
 end
 
