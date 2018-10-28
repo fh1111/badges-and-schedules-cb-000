@@ -31,10 +31,7 @@ def printer(names)
   rooms = assign_rooms(names)
   counter = 0;
 
-  badges.each do |badge|
-    puts "#{badge}"
-
-  end
+  puts "#{badges[0]}"
 
 
 end
