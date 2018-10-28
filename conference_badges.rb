@@ -5,4 +5,14 @@ def badge_maker(name)
 end
 
 
+def batch_badge_creator(names)
+
+  list_badges = []
+  names.each do |name|
+    list_badges << "Hello, my name is #{name}.\n"
+  end
+
+  return list_badges
+end
+
 badge_maker("Arel")
