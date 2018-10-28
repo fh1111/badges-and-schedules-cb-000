@@ -27,6 +27,7 @@ end
 
 def printer(names)
 
+
   badges = batch_badge_creator(names)
   rooms = assign_rooms(names)
   counter = 0;
@@ -36,6 +37,6 @@ def printer(names)
 
 end
 
-badge_maker("Arel")
-batch_badge_creator(["Arel","Fer","Maria"])
+#badge_maker("Arel")
+#batch_badge_creator(["Arel","Fer","Maria"])
 printer(["Arel","Fer","Maria"])
