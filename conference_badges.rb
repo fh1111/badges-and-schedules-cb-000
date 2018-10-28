@@ -22,6 +22,7 @@ def assign_rooms(names)
     room_assignments << "Hello, #{name}| You'll be assigned to room #{counter}"
     counter += 1
   end
+  return room_assignments
 end
 
 badge_maker("Arel")
