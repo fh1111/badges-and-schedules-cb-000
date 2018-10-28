@@ -27,8 +27,14 @@ end
 
 def printer(names)
 
-  batch_badge_creator(names).each do |badge|
+  badges = batch_badge_creator(names)
+  rooms = assign_rooms(names)
+  counter = 0;
+
+  badges.each do |badge|
     puts "#{badge}"
+    puts "#{rooms[counter]}
+    counter +=1
   end
 
 
@@ -36,3 +42,4 @@ end
 
 badge_maker("Arel")
 batch_badge_creator(["Arel","Fer","Maria"])
+printer(["Arel","Fer","Maria"])
