@@ -33,7 +33,7 @@ def printer(names)
 
   badges.each do |badge|
     puts "#{badge}"
-    puts "#{rooms[counter]}
+    puts "#{rooms[counter]}"
     counter +=1
   end
 
