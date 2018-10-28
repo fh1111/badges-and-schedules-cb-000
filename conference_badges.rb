@@ -36,7 +36,10 @@ def printer(names)
 
   end
 
-  puts "#{rooms[0]}"
+  rooms.each do |room|
+    puts "#{room}"
+
+  end
 
 
 end
