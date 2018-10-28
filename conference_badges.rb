@@ -16,4 +16,4 @@ def batch_badge_creator(names[])
 end
 
 badge_maker("Arel")
-batch_badge_creator("Arel","Fer","Maria")
+batch_badge_creator(["Arel","Fer","Maria"])
