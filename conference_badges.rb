@@ -31,6 +31,8 @@ def printer(names)
     puts "#{badge}"
   end
 
+end
+
   puts "#{batch_badge_creator(names)}"
   puts "#{assign_rooms(names)}"
 
