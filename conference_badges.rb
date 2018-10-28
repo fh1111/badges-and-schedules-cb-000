@@ -32,7 +32,8 @@ def printer(names)
   counter = 0;
 
   puts "#{badges[0]}"
-
+  puts "#{rooms[0]}"
+  
 
 end
 
